@@ -16,5 +16,6 @@ namespace Puzzle8Piezas
         {
             InitializeComponent();
         }
+
     }
 }

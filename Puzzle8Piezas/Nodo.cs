@@ -12,6 +12,13 @@ namespace Puzzle8Piezas
         private List<Nodo> hijos;
         private Nodo padre;
 
+        public Nodo()
+        {
+            this.estado = new int[3,3];
+            padre = null;
+            hijos = new List<Nodo>();
+        }
+
         public Nodo(int[,] estado)
         {
             this.estado = estado;
